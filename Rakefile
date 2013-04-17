@@ -10,11 +10,11 @@ begin
   require 'jeweler'
 
   Jeweler::Tasks.new do |gem|
-    gem.name = "gelf"
+    gem.name = "tomdz-gelf"
     gem.summary = 'Library to send GELF messages to Graylog2 logging server.'
     gem.description = 'Library to send GELF messages to Graylog2 logging server. Supports plain-text, GELF messages and exceptions.'
     gem.email = "alexey.palazhchenko@gmail.com"
-    gem.homepage = "http://github.com/Graylog2/gelf-rb"
+    gem.homepage = "http://github.com/tomdz/gelf-rb"
     gem.authors = ["Alexey Palazhchenko", "Lennart Koopmann"]
     gem.add_dependency "json"
     gem.add_development_dependency "shoulda"
